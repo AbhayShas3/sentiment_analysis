@@ -35,7 +35,7 @@ class App extends Component {
       this.setState({generalSentiment: 'Extrememly Positive'})
     }
     else{
-      this.setState({generalSentiment: 'No sentiment'})
+      this.setState({generalSentiment: 'Neutral'})
     }
     
   }
